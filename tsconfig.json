@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "module": "esnext",
+    "baseUrl": "./",
+    "declaration": false,
+    "moduleResolution": "node",
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "lib": [
+      "es2018",
+      "esnext.array",
+      "dom"
+    ]
+  }
+}
